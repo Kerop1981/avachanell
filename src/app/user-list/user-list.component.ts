@@ -27,4 +27,13 @@ users = [
     
   }
 ]
+
+addUserToLIst(name:string){
+  this.users.push({
+    id: this.users.length + 1,
+    name: name,
+    email: "",
+    phone: ""
+  });
+}
 }

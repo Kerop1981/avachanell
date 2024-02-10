@@ -1,0 +1,8 @@
+<form [formGroup]="newUserForm" (ngSubmit)="addUserToList" class="user--search--product">
+    <input class="user--search--product-inut" 
+    title="searchUser" 
+    formControlName="name" 
+    required 
+    (keydown.enter)="addUserToList()">
+    <button type="submit" class="btn btn-search" (click)="addUserToList()" >add user</button>
+</form>

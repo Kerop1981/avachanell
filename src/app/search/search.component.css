@@ -1,0 +1,39 @@
+.user--search--product{
+    margin: 20px auto;
+    text-align: center;
+}
+
+.user--search--product-inut{
+    width: 40%;
+    height: 3.5vh;
+    padding: 1px 10px;
+    outline: none;
+    border-radius: 2px;
+    background-color: #efefef;
+    border: #282828 1px solid;
+}
+/* 
+.btn{
+    padding: 5px 10px;
+    border: none;
+} */
+
+.btn-search{
+    /* background-color: #282828;
+    margin-left: -5px;
+    color: #fff; */
+    height: 4.0vh;
+    background-color: #aaa;
+}
+
+.btn-search-disabled{
+    background-color: #aaa;
+    margin-left: -1px;
+    color: #999;
+    border: #aaa 1px solid;
+    cursor: not-allowed;
+}
+.user--search-result-for{
+    margin:20px auto;
+    padding: 10px 140px;
+}
